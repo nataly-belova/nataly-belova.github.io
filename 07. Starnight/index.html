@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Starnight</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            console.log('ready');
+            document.getElementById('playVid').onclick = function (){
+                document.getElementById('video').play();
+                console.log('clicked');
+            };
+        });
+
+    </script>
+</head>
+<body>
+    <header>
+        <video id="video" muted loop poster="images/header-poster.jpg">
+            <source src="../../html5+css3/video/flowers.ogv" type='video/ogg; codecs="theora, vorbis"'>
+            <source src="../../html5+css3/video/flowers.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+            <source src="../../html5+css3/video/flowers.webm" type='video/webm; codecs="vp8, vorbis"'>
+        </video>
+        <div id="playVid" class="icon-play"></div>
+        <h1>Starnight App</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+        <a href="#" class="btn">Get started</a>
+    </header>
+     <div class="content">
+        <div class="inner">
+            <h2>See the sky even better than your own eyes can</h2>
+            <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <br><br>
+                Auae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+            </p>
+            <a href="#" class="btn">Download now</a>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="inner">
+            <ul class="slider-items">
+                <li></li>
+                <li class="active">
+                    <h3>I couldnt possibly use my own eyes to look at the stars,
+                        <br>
+                        thansk Starnught App...
+                    </h3>
+                </li>
+                <li></li>
+            </ul>
+            <ul class="slider-index">
+                <li><a href="#"></a></li>
+                <li class="active"><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="articles">
+        <div class="inner">
+            <div class="row"><!--row 1-->
+                <div class="article-left">
+                    <article>
+                        <h4>So dreamy</h4>
+                        <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    </article>
+                </div>
+                <div class="article-right">
+                    <article>
+                        <h4>More buzz words</h4>
+                        <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    </article>
+                </div>
+            </div>
+             <div class="row"> <!--row 2-->
+                <div class="article-left">
+                    <article>
+                        <h4>apple store</h4>
+                        <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    </article>
+                </div>
+                <div class="article-right">
+                    <article>
+                        <h4>Extra startup juice</h4>
+                        <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    </article>
+                </div>
+            </div>
+            <a href="#" class="btn">Try demo</a>
+        </div>
+    </div> 
+    <div class="products">
+        <div class="inner">
+            <div class="products-left">
+                <a href="#" class="product-item">
+                    <div class="product-name">Extra startup juice</div>
+                    <div class="product-description">Added feature</div>
+                </a>
+                <a href="#" class="product-item">
+                    <div class="product-name">So thirsty</div>
+                    <div class="product-description">Extra nice UI comes with the app</div>
+                </a>
+            </div>
+            <div class="products-right">
+                <h5>So flat you'll want to give it some shadows</h5>
+                <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <ul class="controls">
+            <li><a href="#">&lt;</a></li>
+            <li><a href="#">&gt;</a></li>
+        </ul>
+    </div>
+    <footer>
+        <div class="inner">
+            <div class="row">
+                <p>
+                    Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq
+                </p>
+                <p>
+                    aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq
+                </p>
+                <ul class="footer-nav">
+                    <li><a href="#">List one</a></li>
+                    <li><a href="#">Page two</a></li>
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="developer-info">
+                Design by www.blazrobar.com
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

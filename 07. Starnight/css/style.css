@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 48px;
+    font-weight: normal;
+    letter-spacing: -0.025em;
+}
+h2 {
+    font-size: 55px;
+    line-height: 53px;
+    font-weight: normal;
+    color: #fff;
+}
+h3 {
+    font-size: 43px;
+    line-height: 53px;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+
+}
+h4, .product-name {
+    font-size: 15px;
+    color: #9197a8;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+h5 {
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 53px;
+    color: #abbcc3;
+}
+header p {
+    font-size: 17px;
+    color: #d0e7e9;
+    line-height: 24px;
+    font-style: italic;
+}
+.content p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+
+}
+article p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #7a8387;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+header a {
+    font-size: 22px;
+    letter-spacing: 0.05em;
+
+}
+.content a {
+    font-size: 18px;
+    letter-spacing: 0.025em;
+}
+.products .products-left a.product-item .product-description {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    font-style: italic;
+    color: #7a8387;
+}
+header {
+    height: 881px;
+}
+header video {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/header-poster.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -999;
+}
+header .icon-play {
+    position: absolute;
+    top: 384px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+}
+header .icon-play:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-left: 18px solid #fff;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+}
+header h1 {
+    position: absolute;
+    top: 182px;
+    width: 100%; /*для позиционирования по центру учитывая position: absolute*/
+    text-align: center; /*для позиционирования по центру учитывая position: absolute*/
+}
+header p {
+    position: absolute;
+    width: 700px;
+    top: 259px;
+    left: 50%; /*для позиционирования по центру учитывая position: absolute*/
+    transform: translateX(-50%); /*для позиционирования по центру учитывая position: absolute*/
+    text-align: center;
+}
+.btn {  
+    border-radius: 3px;
+    text-align: center;
+    text-transform: capitalize;
+}
+header a.btn {
+    display: block;
+    width: 280px;
+    height: 70px;
+    line-height: 70px;
+    position: absolute;
+    top: 747px;
+    left: 50%; /*для позиционирования по центру учитывая position: absolute*/
+    transform: translateX(-50%); /*для позиционирования по центру учитывая position: absolute*/
+    background-color: rgb(122, 204, 200);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2),
+                inset 0 1px 1px rgba(255, 255, 255, 0.41);
+
+}
+.content {
+    height: calc(755px - 92px - 183px);
+    padding: 92px 0 183px;
+    background-image: url("../images/content-bg.jpg");
+}
+.inner {
+    width: 1180px;
+    margin: 0 auto;
+}
+.content h2 {
+    width: 660px;
+}
+.content p {
+    width: 685px;
+    margin-top: 37px;
+}
+.content a.btn {
+    display: block;
+    margin-top: 43px;
+    width: calc(280px - 2*3px);
+    height: calc(70px - 2*3px);
+    line-height: calc(70px - 2*3px);
+    border: 3px solid #fff;
+}
+.slider {
+    position: relative;
+    background-image: url("../images/slider-bg.jpg");
+    background-size: cover;
+    padding: 135px 0 127px;
+}
+.slider :after {
+    content: "";
+    position: absolute;
+    z-index: 999;
+    bottom: -19px;
+    left: calc(50% - 31px);
+    width: 0;
+    border-top: 19px solid #5b6869;
+    border-right: 19px solid transparent;
+    border-left: 19px solid transparent;
+}
+ul {
+    list-style: none;
+}
+.slider ul.slider-items li {
+    display: none;
+}
+.slider ul.slider-items li.active {
+    display: block;
+}
+.slider ul.slider-items li h3 {
+    padding-top: 165px;
+    text-align: center;
+
+}
+.slider ul.slider-items li:nth-child(2) h3{
+    background: url("../images/slider-img.png") no-repeat center top;
+}
+.slider ul.slider-index {
+    overflow: hidden;
+    width: calc(14px*3 + 25px*2);
+    margin: 65px auto 0;
+}
+.slider ul.slider-index li {
+    float: left;
+    margin-right: 25px;
+}
+.slider ul.slider-index li a {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.slider ul.slider-index li:last-child {
+    margin-right: 0;
+}
+.slider ul.slider-index li.active a {
+    background-color: #fff;
+}
+.articles {
+    padding: 107px 0 136px;
+}
+.articles .row {
+    overflow: hidden;
+}
+.articles .row .article-left {
+    float: left;
+    max-width: 579px;
+    border-right: 1px solid #ecf0f3;
+}
+.articles .row .article-right {
+    float: right;
+    max-width: 580px;
+}
+.articles .row article {
+    padding-bottom: 85px;
+}
+.articles .row:last-of-type article {
+    padding-bottom: 0;
+}
+.articles .row article h4 {
+    margin-bottom: 32px;
+}
+.articles .row article p {
+    
+}
+.articles a.btn {
+    display: block;
+    width: 181px;
+    height: 61px;
+    margin: 83px auto 0;
+    line-height: 61px;
+    background-color: #f69679;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2),
+                inset 0 1px 1px rgba(255, 255, 255, 0.41);
+}
+.products {
+    position: relative; /*для позиционирования управляющего списка переключателей вперед назад*/
+    background-color: #f6f6f4;
+    padding: 100px 0 158px;
+}
+.products .inner {
+    overflow: hidden;
+}
+.products .products-left {
+    overflow: hidden;
+    float: left;
+    max-width: calc(337px*2 + 22px);
+    margin-right: 43px;
+}
+.products .products-left a.product-item {
+    float: left;
+    display: block;
+    width: 337px;
+    margin-right: 22px;
+    background-color: #fff;
+    box-shadow: inset 0 -3px #eaeaea;
+}
+.products .products-left a.product-item:last-child {
+    margin-right: 0;
+} 
+.products .products-left a.product-item::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 346px;
+} 
+.products .products-left a.product-item:nth-of-type(1)::before {
+    background-color: #f69679;
+}
+.products .products-left a.product-item:nth-of-type(2)::before {
+    background-color: #e8b968;
+}
+.products .products-left a.product-item .product-name {
+    margin: 31px 0  0 41px;
+}
+.products .products-left a.product-item .product-description {
+   margin: 19px 0  68px 41px;
+}
+.products .products-right {
+    float: right;
+    max-width: calc(100% - (337px*2 + 22px) - 43px);
+}
+.products .products-right h5 {
+
+}
+.products .products-right p {
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #abbcc3;
+}
+.products ul.controls {
+    position: absolute;
+    bottom: 158px;
+    right: 158px;
+    overflow: hidden;
+}
+.products ul.controls li {
+    float: left;
+    margin-right: 10px;
+}
+.products ul.controls li a {
+    font-size: 17px;
+    color: #959595;
+}
+.products ul.controls li a:active {
+    color: #555;
+}
+footer {
+    background-color: #7accc8;
+    padding: 75px 0 240px;
+}
+footer .row {
+    overflow: hidden;
+}
+footer .row p {
+    float: left;
+    margin-right: 36px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+    color: #fff;
+}
+footer .row p:nth-of-type(1) {
+    max-width: 381px;
+}
+footer .row p:nth-of-type(2) {
+    max-width: 207px;
+}
+footer .row p:last-child {
+    margin-right: 0;
+} 
+footer .row ul.footer-nav {
+    float: right;
+    margin-right: 36px;
+}
+footer .row ul.footer-nav li {
+    height: 36px;
+}
+footer .row ul.footer-nav li a {
+    font-size: 14px;
+    letter-spacing: -0.025em;
+}
+footer .developer-info {
+    margin-top: 68px;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #fff;
+}
+footer .developer-info::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 62px;
+    margin: 0 auto 82px;
+    background: url("../images/icon-developer.png") top center;
+}

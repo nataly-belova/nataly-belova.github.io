@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    width: 1065px;
+    margin: 0 auto;
+}
+
+header {
+    height: 800px;
+    background: url("images/header-bg.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 288px;
+}
+
+header h1 {
+    font-size: 72px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+header span {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+header ul.header-menu {
+    margin-top: 43px;
+}
+
+ul.header-menu li {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+ul.header-menu li a {
+    overflow: hidden;
+    display: block;
+    padding-top: 15px;
+    padding-left: 12px;
+    width: calc(163px - 12px); /*width(photoshop) -  padding-left*/
+    height: calc(50px - 15px); /*height(photoshop) - padding-top */
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    text-decoration: none;
+}
+
+ul.header-menu li a img {
+    float: left;
+    margin-right: 7px;
+
+}
+
+ul.header-menu li a span {
+    float: left;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content {
+    background: linear-gradient(to bottom, #fff 0, #fff 193px, #f8f8f8 193px, #f8f8f8 100%);
+    padding-top: 35px;
+    padding-bottom: 47px;
+}
+
+.content-item {
+    overflow: hidden;
+    margin-bottom: 105px;
+}
+
+.content-item:last-child {
+    margin-bottom: 0;
+}
+
+.content-item-left {
+    float: left;
+    width: 500px;
+}
+
+.content-item-right {
+    float: right;
+    width: 500px;
+}
+
+.content .content-item h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 22px;
+}
+
+.content .content-item p {
+    font-size: 18px;
+    color: #333333;
+}
+
+footer {
+    height: 531px;
+    background: url("images/footer-bg.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer .inner {
+    overflow: hidden;
+    padding-top: 247px;
+}
+
+footer span {
+    float: left;
+    font-size: 36px;
+    color: #fff;
+
+}
+
+footer ul.header-menu {
+    float: right;
+
+}

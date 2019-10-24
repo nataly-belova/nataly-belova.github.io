@@ -1,0 +1,258 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #fff url("../images/bg.png") repeat-x;
+	font-family: 'Arial', sans-serif;
+}
+h1 {
+	color: #113848;
+	font-size: 22px;
+	letter-spacing: 0.01em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+h2 {
+	color: #404040;
+	font-size: 20px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+h3 {
+	color: #404040;
+	font-size: 16px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+p {
+	color: #505050;
+	font-size: 13px;
+	letter-spacing: 0.02em;
+	text-transform: none;
+	font-weight: normal;
+	line-height: 20px;
+}
+a {
+	color: #f67f19;
+	font-size: 13px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	font-weight: normal;
+	text-decoration: none;
+}
+.top {
+	height: 71px;
+}
+.inner {
+	width: 820px;
+	margin: 0 auto;
+}
+.top .inner {
+	overflow: hidden;
+}
+.top-logo {
+	float: left;
+	margin-top: 19px;
+}
+.top-logo a {
+
+}
+.top-logo img {
+
+}
+.top-input {
+	float: right;
+	line-height: 71px;
+
+}
+.top-input span {
+	font-size: 11px;
+	font-weight: bold;
+	color: #4c4c4c;
+	font-style: italic;
+	letter-spacing: 0.01em;
+}
+.top-input span .mark {
+	color: #fff;
+}
+.top-input a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #f57514;
+	text-transform: none;
+	background-color: #373737;
+	padding: 9px 43px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2),
+				inset 1px 1px 1px 1px #2d2d2d;
+	margin-left: 22px;
+}
+.nav {
+	height: 60px;
+	line-height: 60px;
+
+}
+.nav ul {
+	overflow: hidden;
+	list-style: none;
+}
+.nav ul li {
+	float: left;
+	margin-right: 24px;
+}
+.nav ul li a {
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 0.01em;
+	padding: 7px 20px;
+	border-radius: 12px;
+}
+.nav ul li a:hover {
+	background-color: #e46000;
+}
+
+.header {
+ height: 300px;
+}
+.header .inner {
+	height: 300px;
+	position: relative;
+}
+.header img {
+	position: absolute;
+	bottom: 0;
+	left: -7px;
+}
+.header-text {
+	width: 391px;
+	position: absolute;
+	right: 0;
+	top: 75px;
+}
+.header-text h1 {
+	padding-bottom: 18px;
+	border-bottom: 1px solid #ef8b21;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+}
+.header-text p {
+	font-size: 14px;
+	color: #353535;
+	line-height: 16px;
+	padding-top: 16px;
+	border-top: 1px solid #f98c33;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.content {
+
+}
+.row {
+	overflow: hidden;
+	margin: 40px 0;
+}
+.line {
+	border-top: 1px solid #fbfbfb;
+	border-bottom: 1px solid #f0f0f0;
+}
+.section1 {
+	float: left;
+	width: 220px;
+	margin-right: 80px;
+}
+.section1 h2 {
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	min-height: 44px;
+	margin-bottom: 15px;
+}
+.section1 h2 span {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #707070;
+}
+.section1 a {
+	float: right;
+	margin-top: 14px;
+}
+#photography {
+	background-image: url("../images/photography.png");
+}
+#business {
+	background-image: url("../images/business.png");
+}
+#designing {
+	background-image: url("../images/designing.png");
+}
+.section2 {
+	float: left;
+	width: 400px;
+	margin-right: 20px;
+}
+.section2 h3 {
+	margin-bottom: 16px;
+}
+/*.section2 img {
+	width: 400px;
+}*/
+.section2 ul.latest-works {
+	list-style: none;
+	overflow: hidden;
+}
+.section2 ul.latest-works li {
+	float: left;
+	margin-right: 30px;
+	margin-top: 29px;
+}
+.section2 ul.latest-works li:first-child, .section2 ul.latest-works li:nth-child(2) {
+	margin-top: 4px; /*чтоб было видно рамку*/
+}
+.section2 ul.latest-works li a {
+	
+}
+.section2 ul.latest-works li a img {
+	width: 170px;
+	box-shadow: 0 0 0 3px #fff, 0 0 0 4px #ececec; /*двойная рамка*/
+
+}
+.section2 ul.latest-works li a img:nth-child(2n) {
+	margin-right: 0;
+}
+.mr0 {
+	margin-right: 0;
+}
+.footer {
+	height: 68px;
+	background-color: #191919;
+	line-height: 66px;
+}
+.footer .inner {
+	overflow: hidden;
+}
+.footer img {
+	vertical-align: middle;
+}
+.footer span {
+	margin-left: 18px;
+}
+.footer ul {
+	float: right;
+	list-style: none;
+}
+.footer ul li {
+	float: left;
+	margin-left: 10px;
+}
+.footer ul li a,
+.footer span {
+	font-size: 10px;
+	font-weight: bold;
+	color: #4b4b4b;
+	letter-spacing: 0.01em;
+}
+.footer ul li a:hover {
+	color: #fff;
+}
